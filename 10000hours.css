@@ -1,0 +1,225 @@
+@font-face {
+    font-family: 'OTEnjoystoriesBA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/OTEnjoystoriesBA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GmarketSansBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 400;
+    src: url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff2") format('woff2'),
+    url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff") format('woff'),
+    url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf") format('opentype');
+}
+body{
+    background-color:  #5B2386;
+    text-align: center;
+    color: white;
+    position: relative;
+    font-family: 'GmarketSansMedium';
+    width: 100%;
+}
+
+button{
+    padding: 13px 35px;
+    border: 0;
+    border-radius: 56px;
+    background-color: #FCEE21;
+    color: #5B2386;
+    font-size: 24px;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-family: 'GmarketSansBold';
+}
+.blind{
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+}
+
+header{
+    padding-top: 203px;
+}
+h1{
+    position: relative;
+    width: 530px;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1 .tit-img{
+    width: 564px;
+    height: 112px;
+    z-index: 2;
+}
+h1 .tit-clock{
+    position: absolute;
+    width: 265px;
+    height: 265px;
+    z-index: 1;
+}
+.img-txt{
+    width: 486px;
+    margin: 0 auto;
+}
+
+main{
+    padding-top: 135px;
+    text-align: center;
+}
+
+.txt-class{
+    background-image: url('../img/quotes.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 78px;
+    margin-bottom: 100px;
+}
+.txt-desc strong{
+    font-size: 24px;
+    font-family: 'GmarketSansBold';
+    font-weight: 800;
+}
+.txt-wannabe1{
+    font-size: 24px;
+}
+.txt-wannabe1 input{
+    width: 228px;
+    height: 57px;
+    border-radius: 10px;
+    padding: 17px 20px;
+    font-size: 24px;
+    box-sizing: border-box;
+    text-align: left;
+    margin: 0 10px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    font-weight: 500;
+    text-align: center;
+}
+.btn-wrapper{
+    height: 50px;
+    position: relative;
+    margin:20px auto;
+    padding: 80px 0;
+}
+
+
+.click{
+    position: absolute;
+    margin-left: 11px;
+}
+
+
+.result-section{
+}
+#result{
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+.txt-wannabe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+.txt-wannabe2,.txt-time{
+    margin-bottom: 60px;
+    font-size: 24px;
+}
+.result-section p strong{
+    font-size: 72px;
+    line-height: 24px;
+    font-family: 'GmarketSansBold';
+    font-weight: 800;
+    padding: 0 24px;
+}
+.re-btn-wrapper{
+    padding-top: 95px;
+    padding-bottom: 80px;
+}
+.re-btn-wrapper .btn-go{
+    width: 356px;
+    height: 66px;
+    margin-right: 16px;
+}
+
+.re-btn-wrapper .btn-share{
+    background-color: white;
+    width: 191px;
+    height: 66px;
+}
+
+.cont-modal{
+    background-color: white;
+    width: 800px;
+    height: 800px;
+    border-radius: 30px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 99;
+    box-shadow: 3px 3px 3px 3px  rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    display: flex;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.img1{
+    width: 396px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+
+}
+.img2{
+    width: 233px;
+    margin-bottom: 7px;
+}
+
+.img3{
+    margin: 60px 0px 35px 0px ;
+}
+
+.cont-modal button{
+    width: 508px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 6px 16px 0px rgba(0, 0, 0, 0.3);
+}
+footer {
+    padding-bottom: 70px;
+}
+.cont-footer{
+    padding-bottom: 20px;
+}
+.text-footer{
+    padding-top: 20px;
+    line-height: 17px;
+    font-size: 12px;
+}
